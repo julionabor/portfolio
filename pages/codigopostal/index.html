@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\style.css">
+    <!--<script src="index.js" type="module" defer></script>-->
+    <title>Validador de Moradas</title>
+</head>
+<body>
+    <main class="container">
+        <h1 class="title">Validador de Código Postal</h1>
+
+        <div class="row">
+            <div class="inputbox">
+                <input type="text" id="cep" maxlength="8"  required>
+                <label for="cep">Codigo Postal</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="endereco"  required>
+                <label for="endereco">Morada</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="freguesia"  required>
+                <label for="freguesia">Freguesia</label>
+            </div>
+        <!-- </div> -->
+        <!-- <div class="row"> -->
+            <div class="inputbox">
+                <input type="text" id="bairro"  required>
+                <label for="bairro">Localidade</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="cidade"  required>
+                <label for="cidade">Cidade</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="estado"  required>
+                <label for="estado">Distrito</label>
+            </div>
+        </div>
+        <div class="row">
+            <button id="btn" onclick="limpaFormulario()">Limpar Formulário</button>
+        </div>
+    </main>
+    <footer>
+        Julio Nabor &#169 2022
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>

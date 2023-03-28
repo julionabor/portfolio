@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="style.css" rel="stylesheet">
+  <title>Hamburgaria </title>
+</head>
+<body onload="home()">
+    <header>
+      <nav class="navigation">
+        <a href="#" class="logo"> <img src="./img/hamburguer-de-queijo.png" alt="hamburgaria"> Hamburgaria <span> do Joca</span> </a>
+        <ul class="nav-menu">
+          <li class="nav-item" onclick="home()"><a href="#">Página Principal</a></li>
+          <li class="nav-item" onclick="cardapio()"><a href="#">Cardápio</a></li>
+          <li class="nav-item" onclick="about()"><a href="#">Sobre Nós</a></li>
+          <li class="nav-item" onclick="contacto()"><a href="#">Contacto</a></li>
+          <i class="bx bx-search"></i>
+        </ul>
+        <div class="menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="header"><h1>Titulo</h1></div>
+        <div class="home" id="home-text"></div>
+      </section>
+    </main>
+  <script src="script.js"></script>
+</body>
+</html>
